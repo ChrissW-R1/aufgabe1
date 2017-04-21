@@ -49,4 +49,12 @@ local.properties
 # Code Recommenders
 .recommenders/
 
+# IntelliJ IDEA
+/.idea/
+*.iml
+
+# Maven
+/target/
+
+# NetBeans
 /nbproject/private/
