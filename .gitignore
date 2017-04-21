@@ -52,3 +52,6 @@ local.properties
 # IntelliJ IDEA
 /.idea/
 *.iml
+
+# Maven
+/target/
