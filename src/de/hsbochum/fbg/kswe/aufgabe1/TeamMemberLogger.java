@@ -10,9 +10,9 @@ public class TeamMemberLogger {
 		tml.loadTeamMembers();
 		tml.doLog();
 	}
-
+	
 	private List<TeamMember> members;
-
+	
 	private void loadTeamMembers() {
 		this.members = new ArrayList<>();
 		
@@ -20,19 +20,19 @@ public class TeamMemberLogger {
 		loadMemberB();
 		loadMemberC();
 	}
-
+	
 	private void loadMemberC() {
-		this.members.add(new TeamMember("Barbara", "Klein"));
+		this.members.add(new TeamMember("Barbara", "Gro\u00DF"));
 	}
-
+	
 	private void loadMemberB() {
 		
 	}
-
+	
 	private void loadMemberA() {
-		
+		this.members.add(new TeamMember("Hans", "Peter"));
 	}
-
+	
 	private void doLog() {
 		System.out.println(String.format("%s Mitglieder insgesamt:", this.members.size()));
 		this.members.stream().forEach(m -> {
