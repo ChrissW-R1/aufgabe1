@@ -55,3 +55,6 @@ local.properties
 
 # Maven
 /target/
+
+# NetBeans
+/nbproject/private/
